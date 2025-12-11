@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    
     "dev": "vite",
     "build": "vite build",
     "host": "vite --host",
@@ -31,7 +30,7 @@
     "@react-querybuilder/dnd": "^8.8.4",
     "@reduxjs/toolkit": "^2.2.7",
     "@xyflow/react": "^12.4.2",
-    "apexcharts": "^3.54.1",
+    "apexcharts": "^4.2.0",
     "axios": "^1.7.5",
     "bpmn-js": "^17.9.2",
     "chart.js": "^4.4.8",
