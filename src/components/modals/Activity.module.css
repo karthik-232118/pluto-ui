@@ -1,0 +1,120 @@
+/* Wrapper for the activity content */
+.contentWrapper {
+  padding: 20px;
+}
+
+.activityHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.activityHeader img {
+  width: auto;
+  height: 40px; /* Assuming the logo size */
+}
+
+.activityHeaderText {
+  display: flex;
+  flex-direction: column;
+}
+
+.activityHeaderText .MuiTypography-h6 {
+  font-weight: bold;
+}
+
+/* Stepper label and info wrapper */
+.stepperLabel {
+  font-size: 16px;
+  color: #333;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.infoWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.infoWrapper .MuiAvatar-root {
+  width: 40px;
+  height: 40px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.createdBy {
+  font-style: italic;
+  color: #888;
+}
+
+/* Stepper */
+.stepIcon {
+  font-size: 24px;
+}
+
+.stepIconCreatedFile {
+  color: green;
+}
+
+.stepIconCheckerReview {
+  color: red;
+}
+
+.stepIconEscalationReview {
+  color: blue;
+}
+
+.stepIconNotReviewed {
+  color: gray;
+}
+
+/* Loader */
+.loaderWrapper {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorDialogWrapper {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button */
+.secondaryButton {
+  cursor: pointer;
+}
+
+.primaryButton {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.primaryButton:disabled {
+  background-color: #add8e6;
+  opacity: 0.6;
+}
+
+.cancelButton {
+  width: 100%;
+  text-transform: none;
+}
+
+.publishButton {
+  width: 100%;
+  text-transform: none;
+}

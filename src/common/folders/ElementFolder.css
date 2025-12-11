@@ -1,0 +1,226 @@
+.breadcrumbs-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  padding: 12px 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* background-color: #16a34a !important; */
+  margin-top: 0px;
+}
+
+.grid-item {
+  border-radius: 8px;
+  padding: 16px;
+  text-align: start;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+  transition: "background-position 0.3s ease, transform 0.2s cubic-bezier(0.4, 0.0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0.0, 0.2, 1)";
+}
+
+.new-button-container {
+  position: relative;
+  /* Relative position to contain the dropdown */
+}
+
+.text-truncate {
+  width: 140px;
+  padding: 0;
+  /* overflow: hidden; */
+  position: relative;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
+
+.new-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  /* Make sure button stays in place */
+  z-index: 1;
+  /* Ensure button is above content */
+}
+
+.new-button-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.dropdown-container {
+  position: absolute;
+  /* Absolute positioning to avoid pushing content */
+  top: 100%;
+  /* Positioned below the button */
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  z-index: 10;
+  /* Ensure dropdown stays above other elements */
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.filtermenyitem{
+  font-size: 13px !important;
+  font-weight: 300 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  /* Space between icon and text */
+}
+
+.dropdown-text {
+  flex-grow: 1;
+  margin-left: 8px;
+  /* Ensure all text starts on the same line */
+}
+
+.more-icon {
+  margin-left: auto;
+  /* This pushes the three-dot icon to the right */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* Ensures the three-dot icon is fully to the right */
+}
+
+.nodata-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.status-wrapper {
+  font-family: "Inter";
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  width: 100% !important;
+  margin-right: -1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.published_ {
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 16px;
+  background: #eab308;
+  font-weight: 600 !important;
+  color: #fff;
+}
+
+.draft {
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 16px;
+  background: #16a34a;
+  font-weight: 600 !important;
+  color: #fff;
+}
+
+.inProgress {
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 16px;
+  background: #3B82F6;
+  font-weight: 600 !important;
+  color: #fff;
+}
+
+/* AutoFinance.css */
+
+.auto-finance-container {
+  /* padding-left: 20px; */
+}
+
+.breadcrumbs-text {
+  font-size: 16px;
+}
+
+.heading {
+  width: 100%;
+}
+
+.back-button {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  margin-right: 20px;
+  cursor: pointer;
+  background: none !important;
+  border-radius: 0 !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.grid-item:hover {
+  cursor: pointer;
+  background: linear-gradient(to left, #cde1fa, #ffffff);
+  background-size: 200% 100%;
+  background-position: right center left center top center;
+}
+
+.grid-item-active {
+  background-color: aliceblue;
+  border: 2px solid blue;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: start;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+}
+
+.bg-gap {
+  margin: 0 10px 0 0;
+}
+
+.file-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}

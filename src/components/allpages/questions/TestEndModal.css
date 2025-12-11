@@ -1,0 +1,65 @@
+.modal-paper {
+    max-width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    margin-top: 7%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Black shadow with some blur */
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .modal-description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #64748B;
+  }
+  
+  .modal-button {
+    width: 100%;
+    border-color: black;
+    color: black;
+    height: 44px;
+  }
+  
+  .modal-button-contained {
+    width: 100%;
+    background-color: #B91C1C;
+    color: white;
+    height: 44px;
+  }
+  
+  .analysis-data-container {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .data-box {
+    border: 1px solid #C4C9E2;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 26px;
+    margin-top: 8px;
+  }
+  
+  .data-box img {
+    margin-right: 8px;
+  }
+  
+  @media (min-width: 600px) {
+    .modal-paper {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .data-box {
+      margin-top: 4px;
+    }
+  }
+  .data-heading{
+    color: #525456;
+    ;
+  }

@@ -1,0 +1,33 @@
+.review-and-send-modal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.file-display {
+  background: #1018281a;
+  border-radius: 10px;
+  border: 1px solid var(--slate-300);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.doc-name {
+  font-family: "Inter-Bold";
+  font-size: var(--bt-font-size);
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.candiate-name {
+  font-family: "Inter-Regular";
+  font-size: var(--bt-font-size);
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 0;
+  color: var(--text-light);
+}

@@ -1,0 +1,21 @@
+.thumbnails_thumbnail {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: start;
+  justify-content: start;
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.thumbnails__scroll {
+  /* width: 100%; */
+  padding: 1rem;
+}
+
+.thumbnail__active {
+  border: 1px solid #000;
+}

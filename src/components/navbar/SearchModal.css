@@ -1,0 +1,180 @@
+.search-modal {
+  width: 750px;
+  height: 429px;
+  top: 72px;
+  left: 339px;
+  padding: 6px 24px;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: absolute;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+.quick-search {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+.search-modal-heading {
+  font-family: "Inter";
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+.quick-search button {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #c4c9e2;
+  padding: 6px 12px;
+  border-radius: 26px;
+  cursor: pointer;
+  color: #475569;
+}
+.search-item {
+  display: flex;
+  align-items: center;
+  color: #020617;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+  cursor: pointer;
+  position: relative;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+}
+.search-item:hover {
+  background-color: #f9fafb;
+}
+.search-item-icon {
+  margin-right: 8px;
+}
+.arrow-icon {
+  position: absolute;
+  right: 0;
+}
+.quick-icon {
+  padding-left: 8px;
+}
+/* Add styles for the scrolling behavior */
+.search-results {
+  flex: 1;
+  overflow-y: auto; /* Enables vertical scrolling */
+  margin-top: 0rem;
+}
+/* Optional: Hide scrollbar by default (for WebKit browsers) */
+.search-results::-webkit-scrollbar {
+  display: none;
+}
+.impact_analysis {
+  /* padding: 3px; */
+  display: flex; /* Stretch to the parent's height */
+  align-items: center; /* Vertically center the content */
+}
+.open_file {
+  background-color: #f5f5f5;
+  padding: 3px;
+  display: flex; /* Stretch to the parent's height */
+  align-items: center; /* Vertically center the content */
+  margin-left: 1rem;
+  height: 30px;
+  margin-top: 1rem;
+  font-weight: 200 !important;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 5px;
+}
+.impact_analysis p,
+.open_file p {
+  display: flex; /* Ensure img and text are on the same line */
+  align-items: center; /* Vertically align img and text */
+  margin: 0; /* Remove default p tag margin */
+}
+
+.pdf-viewer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+  overflow: hidden;
+}
+.switch-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.switch-button:hover {
+  background-color: #45a049;
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  overflow: hidden;
+  /* display: none; */
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.thumbnail-container div {
+  margin: 0 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+}
+
+.pdf-container {
+  flex: 1;
+  position: relative;
+}
+
+/* Tip box styles */
+.react-pdf-highlighter__tip {
+  background: #ffcc00;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Highlight styles */
+.highlight {
+  background-color: rgba(255, 255, 0, 0.4);
+  border-radius: 2px;
+}

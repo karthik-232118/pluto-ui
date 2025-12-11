@@ -1,0 +1,373 @@
+.myVideo {
+  height: 85vh;
+  background-color: #edf3ff;
+  width: 100%;
+  font-family: "Inter";
+}
+
+.cardContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContent {
+  flex: 1;
+}
+
+.testPassPercentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circularProgressContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.assignedByContainer,
+.dueByContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.takeTestButton {
+  width: auto;
+  background-color: black;
+  color: white;
+  /* Add color to ensure text is visible on the button */
+}
+
+.guidedModeContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2;
+  padding: 1rem;
+}
+
+.chart_bg {
+  /* border-radius: 8px; */
+  /* background: #FFF; */
+  /* margin-left: 80px; */
+  height: 510px;
+}
+
+.chart_bg1 {
+  border-radius: 8px;
+  /* background: #FFF; */
+  margin-left: 80px;
+  height: 550px;
+}
+
+.inside_bg {
+  padding: 16px;
+  padding-bottom: 0 !important;
+}
+
+.top_variant {
+  /* color: #0D0D0D; */
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.sub_variant {
+  color: #a6a9ac;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.chart_buttons {
+  color: #00000099 !important;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  border-radius: 0% !important;
+}
+
+.chart_buttons_active {
+  color: #000000DE !important;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  border-radius: 0% !important;
+  border-bottom: 2px solid #ec4887 !important;
+}
+
+.chart_buttons:hover {
+  border-bottom: 2px solid #ec4887 !important;
+}
+
+.horizontal_line {
+  border-top: 1.5px solid #e8ecf1;
+  width: 100%;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+/* .horizontal_line2 {
+    border: 1.5px solid #E8ECF1;
+    width: 100%;
+  } */
+
+.num_variant {
+  color: #1a1a1a;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sub_variant_2 {
+  color: #a6a9ac;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ernings_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 34px;
+  align-self: stretch;
+  margin-top: 25px;
+}
+
+.bottom_content {
+  border-left: 1.5px solid #e8ecf1;
+  padding: 16px;
+}
+
+.icon_varient {
+  /* color: #A6A9AC; */
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.icon_numbers {
+  /* color: #0D0D0D; */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.dashborad_card1 {
+  /* border-radius: 8px;
+  background: #0097a7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px; */
+  /* width: Fill (319.75px)px;
+height: Hug (100px)px; */
+  padding: 24px 16px 24px 16px;
+  gap: 24px;
+  border-radius: 8px 0px 0px 0px;
+  /* opacity: 0px; */
+  background-color: #2196f3;
+}
+
+.dashborad_card2 {
+  /* border-radius: 8px;
+  background: #2196f3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px; */
+  /* width: Fill (319.75px)px;
+height: Hug (100px)px; */
+  padding: 24px 16px 24px 16px;
+  gap: 24px;
+  border-radius: 8px 0px 0px 0px;
+  /* opacity: 0px; */
+  background-color: #3f51b5;
+}
+
+.dashborad_card3 {
+  /* border-radius: 8px;
+  background: #3f51b5;
+  display: flex;
+  padding: 16px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px; */
+  padding: 24px 16px 24px 16px;
+  gap: 24px;
+  border-radius: 8px 0px 0px 0px;
+  /* opacity: 0px; */
+  background-color: #673ab7;
+}
+
+.dashborad_card4 {
+  /* border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background: #7367f0;
+  align-items: flex-start;
+  gap: 24px; */
+  padding: 24px 16px 24px 16px;
+  gap: 24px;
+  border-radius: 8px 0px 0px 0px;
+  /* opacity: 0px; */
+  background-color: #00acc1;
+}
+.dashborad_card5 {
+  border-radius: 8px;
+  /* background: linear-gradient(101deg, #FEAB35 0%, #F58156 100.07%); */
+  display: flex;
+  /* padding: 24px 16px; */
+  flex-direction: column;
+  background: #00acc1;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.card_varient {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.card_numbers {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.action_card {
+  border-bottom: 1px solid #e8ecf1;
+  padding: 16px;
+  border-radius: 8px;
+  /* background: #FFF; */
+}
+
+.arrow_btn {
+  border-radius: 8px !important;
+  border: 1px solid #d0d5dd !important;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  padding: 8px 14px !important;
+}
+
+.tes_para {
+  color: #667085;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.mcq_para {
+  color: #3b82f6;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title_para {
+  color: #667085;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.swicht_side {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  width: 40%;
+}
+
+.swith_para {
+  color: #3b82f6 !important;
+  font-family: "Inter" !important;
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  line-height: normal !important;
+}
+
+.custom-select {
+  border-radius: 8px;
+  background: #f4f6f9;
+  border: none;
+}
+
+.custom-select .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.chart_bg1 {
+  border-radius: 8px;
+  /* background-color: var(--chart-bg, #ffffff);  */
+  margin-left: 80px;
+  height: 550px;
+}
+
+.num_variant {
+  color: var(--text-color, #1a1a1a); /* Default dark text */
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.top_variant {
+  /* color: var(--text-color, #0d0d0d);  */
+  /* Default dark text */
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}

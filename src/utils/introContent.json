@@ -1,0 +1,72 @@
+{
+    "steps": [
+      {
+        "element": ".new-button",
+        "intro": "This is the 'New' button. Click here to create categories and elements.",
+        "position": "bottom"
+      },
+      {
+        "element": ".bulk-document-button",
+        "intro": "<p>Click here to easily upload bulk documents.</p><img src='../data/bulkDoc.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".category-button",
+        "intro": "<p>Click here to create a category.</p><img src='../data/cat.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".training_simulation-button",
+        "intro": "<p>Click here to Create Training Simulation.</p><img src='../data/TrainingSimulation.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".sop-button",
+        "intro": "<p>Click here to Create SOP.</p><img src='../data/Sop.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".test-simulation-button",
+        "intro": "<p>Click here to Create Test Simulation.</p><img src='../data/testsimulation.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".test-mcqs-button",
+        "intro": "<p>Click here to Create Test MCQ.</p><img src='../data/testMCQ.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".document-button",
+        "intro": "<p>Click here to Create Document.</p><img src='../data/document.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".assign-button",
+        "intro": "<p>Click here to assign the selected category or element.</p><img src='../data/assign.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".hide_unhide-button",
+        "intro": "<p>Click here to hide and unhide the element.</p><img src='../data/hide.png' alt='Tutorial' style='width:200px;height:auto;margin-top:10px;'/>",
+        "position": "bottom"
+      },
+      {
+        "element": ".three-dot-menu",
+        "intro": "Click here to access edit and delete options for this item.",
+        "position": "left"
+      },
+      {
+        "element": ".comment-section",
+        "intro": "Right-click here to add a comment.",
+        "position": "right"
+      },
+      {
+        "element": ".comment-section",
+        "intro": "You can comment twice in this section.",
+        "position": "right"
+      }
+    ],
+    "showProgress": true,
+    "showBullets": false
+  }
+  

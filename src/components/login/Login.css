@@ -1,0 +1,283 @@
+    :root {
+      --radiuslg: 8px;
+      --spacing4: 16px;
+      --spacing2: 8px;
+      --spacing0: 0px;
+    }
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  background-color: #F5F6FB;
+  height: 100%; 
+  /* overflow: hidden !important; */
+
+}
+
+html {
+  height: 100%;
+}
+
+.navbar {
+  height: 68px;
+  background: linear-gradient(to bottom, #2C64FF, #4A90E2);
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-weight: 100;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 68px);
+  
+}
+
+.left-pane {
+  width: 977px;
+  height: 100%; 
+  position: relative;
+}
+
+.slider {
+  height: 100%;
+}
+
+.slick-slider {
+  height: 100%;
+}
+
+.slick-list {
+  height: 100%;
+}
+
+.slick-slide {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots {
+  display: flex !important;
+  justify-content: flex-start !important;
+  list-style: none;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 4px;
+}
+
+.slick-dots li button:before {
+  display: none;
+}
+
+.slick-dots li.slick-active div {
+  background-color: white !important;
+}
+
+.slick-dots li div {
+  transition: background-color 0.3s;
+}
+
+.slider-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slider-item img {
+  width: 100%;
+  height: 100vh; 
+  object-fit: cover;
+  display: block; 
+}
+
+.slider-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(15, 34, 134, 0) 20.5%, rgba(15, 34, 134, 0.9) 78.56%);
+  z-index: 1;
+}
+
+.slider-content {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: white;
+  z-index: 2;
+  margin: 0 0 6rem 1rem ;
+}
+
+.slider-content h1,
+.slider-content p {
+  width: 60%;
+}
+
+.slider-content p {
+  margin-top: 8px;
+}
+
+.right-pane {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  background-color: #F5F6FB;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h1 {
+  margin-bottom: 24px;
+}
+
+.text-field {
+  width: 100%;
+  margin-bottom: 16px;
+  height: 56px;
+  /* padding: 0 var(--spacing4) 0 var(--spacing2); */
+  border-radius: var(--radiuslg);
+  border-color: #E2E8F0;
+}
+
+.text-field:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.forgot-password {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 16px;
+  color: #3D54CD;
+}
+
+.login-button {
+  width: 100%;
+  height: 52px;
+  background-color: #1E88E5 !important;
+  text-transform: none !important;
+  border-radius: var(--radiuslg);
+  padding: 0 var(--spacing4);
+  gap: var(--spacing0);
+}
+
+.powered-by {
+  position: absolute;
+  bottom: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.rightside-heading {
+  color: #1E88E5;
+  font-weight: 500;
+  size: 42px;
+  line-height: 63px;
+  padding-bottom: 2rem;
+}
+
+.login-heading {
+  color: #35469F;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.or{
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 1200px) {
+  .left-pane {
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .left-pane {
+    width: 50%;
+  }
+
+  .right-pane {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .left-pane {
+    width: 100%;
+    height: 300px;
+  }
+
+  .right-pane {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .login-form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding-left: 16px;
+  }
+
+  .left-pane {
+    height: 200px;
+  }
+
+  .right-pane {
+    padding: 0 8px;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+
+  .powered-by {
+    bottom: 8px;
+  }
+
+  .rightside-heading, .login-heading {
+    font-size: 24px;
+  }
+}
+
+.login-heading{
+font-weight:bolder;
+color: white;
+}
+
+.login-para{
+  font-weight: 400;
+}
+
+

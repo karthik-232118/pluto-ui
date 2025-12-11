@@ -1,0 +1,45 @@
+.signature {
+  top: 0;
+  left: 0;
+  /* width: 100px;
+  height: 100px; */
+  z-index: 1;
+  position: "relative";
+  background-color: #eff6ff;
+  border: 2px dotted #818cf8;
+  color: #4f46e5;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+}
+
+.signature__modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signature__styles {
+  max-height: 300px;
+  overflow: auto;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.signature__styles__image:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.signature__font:hover {
+  /* background-color: #f5f5f5; */
+  cursor: pointer;
+  /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1); */
+  /* transform: scale(1.1); */
+}

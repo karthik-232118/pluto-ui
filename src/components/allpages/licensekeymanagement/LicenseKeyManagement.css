@@ -1,0 +1,95 @@
+/* Most styles are now applied directly in the JSX using MUI's sx prop, 
+   but keeping this file for potential use or backwards compatibility */
+
+.container {
+  padding: 20px;
+  margin: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.headerimg {
+  margin-right: 20px !important;
+}
+
+.key-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.key_expires {
+  border: #ff0000 solid 1.5px;
+  padding: 12px;
+  background-color: #e82b2b;
+  color: #fff;
+  margin-bottom: 2rem !important;
+  border-radius: 8px;
+}
+
+.grid-containerss {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.gridone,
+.gridtwo,
+.gridthree {
+  border: 2px solid rgb(18, 222, 18);
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Set the background color for grid items */
+}
+
+.gridone {
+  color: rgb(18, 222, 18);
+}
+
+.gridtwo {
+  border: 2px solid #2d75ea !important;
+  color: #2d75ea !important;
+}
+
+.gridthree {
+  border: 2px solid rgb(177, 42, 244) !important;
+  color: rgb(177, 42, 244) !important;
+}
+
+.grid-content {
+  display: flex;
+  flex-direction: column; /* Arrange texts vertically */
+  justify-content: space-between; /* Distribute space evenly */
+  text-align: center; /* Center align text horizontally */
+}
+
+.gridfour {
+  border: 2px solid #ff9800;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #ff9800;
+}

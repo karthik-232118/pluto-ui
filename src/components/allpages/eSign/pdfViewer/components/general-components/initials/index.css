@@ -1,0 +1,18 @@
+.intials {
+  top: 0;
+  left: 0;
+  /* width: 100px;
+    height: 100px; */
+  z-index: 1;
+  position: "relative";
+  background-color: #eff6ff;
+  border: 2px dotted #818cf8;
+  color: #4f46e5;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: fit-content;
+}

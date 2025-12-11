@@ -1,0 +1,99 @@
+.right-content {
+  display: flex;
+  height: 100vh; 
+  flex-direction: row;
+  align-items: flex-start;
+  
+  position: fixed; /* or absolute, fixed, etc. depending on your layout */
+  z-index: 10; /* Adjust the value as needed */
+}
+  
+  .tab-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* margin-right: 16px; */
+    padding-top:2.5rem ;
+  }
+  
+  .tab-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  /* .detail-section{
+    margin-left: 1rem;
+  } */
+  
+  .tab-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding : 1rem; */
+    padding-top: 10px;
+  }
+  
+   .vertical-divider {
+    color: #F5F6FB;
+  }
+ 
+  .uploaded-by {
+    display: flex;
+    align-items: center;
+    background-color: #DBEAFE;
+    border-radius: 26px;  
+    padding: 5px;
+    width: 160px;
+    height: 37px;
+    font-size:medium;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    
+  }
+
+  
+  .uploaded-by, .uploaded-on {  
+    display: flex;
+    align-items: center;
+  }
+
+  .full-name {
+    visibility: hidden;
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    z-index: 1000;
+    white-space: nowrap;
+  }
+.uploaded-by-name:hover .full-name {
+  visibility: visible;
+}   
+  .uploaded-on{
+    width: fit-content;
+    height: 33px;
+    margin-top: 0.5rem;
+    background-color: #FEF3C7;
+    border: none;
+  }
+  .on{
+    margin-top: 1rem;
+  }
+  .version-updates {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+ .uploaded-icons{
+    width: 14px;
+    height: 24px;
+ }
+
+ .custom-tooltip-container {
+  background-color: transparent !important; /* Ensures the container is transparent */
+}
+
+
+

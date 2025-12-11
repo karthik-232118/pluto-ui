@@ -1,0 +1,30 @@
+.common_button{
+    /* background-color: #3B82F6 !important; */
+    color: white !important;
+    padding: 10px 20px !important;
+    margin-top: 1rem !important;
+    text-transform: none !important;
+}
+
+.test_previous-skip_botton{
+    border-color: #E2E8F0 !important;
+    color: #000 !important;
+    text-transform: none !important;
+}
+
+.test_end_botton{
+     background-color:#DC2626 !important;
+     text-transform: none !important;
+}
+
+.test_next_botton {
+    background-color: #3D54CD !important;
+    margin-left: 12px !important;
+    text-transform: none !important;
+    color: white !important;
+}
+
+.test_next_botton.Mui-disabled {
+    background-color: #B0B0B0 !important; /* Gray or any other color you want for disabled state */
+    color: white !important; /* Or another color for the disabled text */
+}

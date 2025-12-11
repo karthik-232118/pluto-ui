@@ -1,0 +1,107 @@
+.infoWrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2rem;
+}
+
+.avatarsContainer {
+  display: flex;
+  align-items: flex-start;
+  align-self: flex-start;
+  min-width: 120px;
+}
+
+.avatarStyle {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+}
+
+.overlapEffect {
+  margin-right: -10px;
+}
+
+.extraCount {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.commentsContainer {
+  max-height: 400px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.profileRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.approvalStatus {
+  margin-bottom: 0 !important;
+}
+
+.approved {
+  color: #4caf50;
+}
+
+.rejected {
+  color: #f44336;
+}
+
+.pending {
+  color: #3700fc;
+}
+
+.skipped {
+  color: #ff9800;
+}
+
+.userName {
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.userType {
+  color: #7b8998;
+  font-size: 14px;
+}
+
+.userActivityDate {
+  display: flex;
+  align-items: center;
+  color: #7b8998;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.userActivityDate p {
+  font-size: inherit;
+}
+
+.commentText {
+  color: #aaa;
+  font-size: 16px;
+  margin-bottom: 1rem !important;
+}
+
+.noCommentText {
+  color: #aaa;
+  font-size: 16px;
+  margin-bottom: 1rem !important;
+}
+
+.divider {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}

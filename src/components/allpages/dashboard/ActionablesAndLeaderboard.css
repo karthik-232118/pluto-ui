@@ -1,0 +1,136 @@
+/* General Styles */
+.top_variant {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  /* color: #101828; */
+}
+
+.sub_variant {
+  font-family: "Inter", sans-serif;
+  color: #667085;
+}
+
+.due_variant {
+  font-family: "Inter", sans-serif;
+  color: #5290f7;
+  font-weight: 500;
+}
+
+/* Equal height for both cards */
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.equal-height {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  height: 600px;
+  overflow-y: auto;
+}
+
+.scrollable-content {
+  scrollbar-width: none;
+  /* For Firefox */
+  overflow-y: scroll;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+  /* For Chrome, Safari, and Edge */
+}
+
+.divider {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 8px 0;
+}
+
+.leaderboard_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leaderboard_table th,
+.leaderboard_table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Left: Actionables */
+.action_item {
+  font-weight: 500;
+  padding-bottom: 10px !important;
+}
+
+.arrow_btn {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.action_card .avatar {
+  background-color: #f8ebfe;
+}
+
+/* Right: Leaderboard */
+.leaderboard_card {
+  /* background-color: #ffffff; */
+  /* border: 1px solid #e4e7ec; */
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.swicht_side {
+  display: flex;
+  align-items: center;
+}
+
+.tes_para {
+  color: #667085;
+}
+
+.leaderboard_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.leaderboard_table th,
+.leaderboard_table td {
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.leaderboard_table th {
+  /* background-color: #f9fafb; */
+  /* color: #667085; */
+}
+
+.leaderboard_table tr:nth-child(even) {
+  /* background-color: #f4f6f9; */
+}
+
+.pagination_btn {
+
+  border-radius: 6px;
+  color: #667085;
+  margin: 0 4px;
+  padding: 6px 12px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .pagination_btn {
+    padding: 4px 8px;
+  }
+
+  .leaderboard_table th,
+  .leaderboard_table td {
+    padding: 8px 6px;
+  }
+}

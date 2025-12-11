@@ -1,0 +1,70 @@
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.title-wrapper img {
+  height: 56px;
+  width: 56px;
+  gap: 0px;
+  border-radius: 28px;
+}
+
+.dropzone {
+  width: 100%;
+  height: 200px;
+  border: 2px dashed #ccc;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+.uploaded-file-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.errorContainer {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #f44336; /* Red border for error container */
+  border-radius: 8px;
+  background-color: #ffebee; /* Light red background */
+}
+
+.errorContainer ul {
+  padding-left: 20px; /* Indent list items */
+  margin: 0;
+}
+
+.errorContainer li {
+  margin-bottom: 8px; /* Space between errors */
+  list-style: disc; /* Bullet points */
+}
+
+.error-message {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.actions-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.actions-wrapper > button {
+  width: 100%;
+}

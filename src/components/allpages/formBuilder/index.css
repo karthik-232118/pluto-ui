@@ -1,0 +1,21 @@
+.react-form-builder > div {
+  display: flex !important;
+}
+.react-form-builder .react-form-builder-preview {
+  flex: 0.8 !important;
+}
+.react-form-builder .react-form-builder-toolbar {
+  flex: 1 !important;
+  margin-top: 0px !important;
+}
+.react-form-builder .react-form-builder-toolbar h4 {
+  font-size: 24px !important;
+  margin-top: 10px !important;
+  display: none;
+}
+.react-form-builder .react-form-builder-toolbar ul li:first-child {
+  margin-top: 0px !important;
+}
+.react-form-builder .react-form-builder-toolbar li {
+  font-size: 16px !important;
+}

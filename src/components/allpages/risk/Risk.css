@@ -1,0 +1,14 @@
+.risk_field_lable{
+  
+    font-size: 0.9rem;
+    font-weight: 500;
+
+}
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.interFontImportant {
+  font-family: "Inter, sans-serif" !important;
+}

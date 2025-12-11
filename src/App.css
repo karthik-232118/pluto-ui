@@ -1,0 +1,51 @@
+body {
+  font-family: "Inter", sans-serif !important; /* Ensures 'Inter' is the default for body */
+}
+
+:root {
+  --radiuslg: 8px;
+  --spacing4: 16px;
+  --spacing2: 8px;
+  --spacing0: 0px;
+  --font-family: "Inter_Regular";
+}
+
+.css-1l18pnj-MuiFormHelperText-root {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/* Style for tooltip */
+.introjs-tooltip {
+  background: linear-gradient(
+    to bottom,
+    #0b4b76,
+    #5a9ab5
+  ); /* background: linear-gradient(to bottom, #064671, #78a7c6); */
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.introjs-prevbutton,
+.introjs-nextbutton {
+  color: black;
+  margin-top: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.introjs-skipbutton {
+  color: white;
+}
+.introjs-skipbutton:hover {
+  color: white;
+}
+.introjs-prevbutton:hover,
+.introjs-nextbutton:hover {
+  /* background-color: rgb(209, 209, 209); */
+  color: black;
+}

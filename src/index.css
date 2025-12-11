@@ -1,0 +1,23 @@
+.watermark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    pointer-events: none;
+    background-image: url('/path-to-watermark-image.png'); /* Use your watermark image */
+    background-repeat: repeat;
+    opacity: 0.2;
+  }
+  
+  :root {
+    --chart-bg: #ffffff;
+    --text-color: #0d0d0d;
+  }
+  
+  [data-theme="dark"] {
+    --chart-bg: #1e1e1e; /* Dark mode background */
+    --text-color: #ffffff; /* Dark mode text */
+  }
+  

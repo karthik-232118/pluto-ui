@@ -1,0 +1,21 @@
+.gridone,
+.gridtwo,
+.gridthree,
+.gridfour {
+  border: 2px solid rgb(18, 222, 18);
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.grid-container {
+  display: flex;
+  gap: 20px;
+}

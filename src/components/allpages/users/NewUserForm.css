@@ -1,0 +1,17 @@
+input{
+    width: 100%;
+    padding: 10px 14px;
+    margin: 5px 0;
+    height: 44px ;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.form-select{
+    width: 100%;
+    padding: 10px 14px;
+    margin: 5px 0;
+    height: 44px ;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}

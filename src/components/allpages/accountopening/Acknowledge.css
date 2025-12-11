@@ -1,0 +1,12 @@
+.blinking {
+    animation: blink-animation 2s steps(2, start) infinite;
+    color: #000; /* Optional: Change text color when blinking */
+    font-weight: bold;
+  }
+  
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  

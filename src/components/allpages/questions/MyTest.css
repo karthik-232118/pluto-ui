@@ -1,0 +1,67 @@
+.test-container {
+    font-family: "Inter";
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .test-header {
+    text-align: center;
+  }
+  
+  .progress-bar-container {
+    height: 20px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #76c7c0;
+  }
+  
+  .question-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .question-header {
+    margin-bottom: 20px;
+  }
+  
+  .options-container {
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .option input {
+    margin-right: 10px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navigation-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .navigation-buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

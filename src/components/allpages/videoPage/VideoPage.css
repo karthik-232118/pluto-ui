@@ -1,0 +1,50 @@
+.videoPageContainer {
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 100vh;
+   /* padding: 10px 20px; */
+}
+
+.videoPageHeader {
+  display: flex;
+  align-items: center;
+  /* margin-left: 0.6rem; */
+  padding: 12px 0px 0 20px;
+}
+
+.videoPageTypography {
+  /* margin-left: 8px; */
+ 
+}
+
+.videoPageDivider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.videoPageContent {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  margin: 10px 25px 0  30px;
+}
+
+.videoPageTitle {
+  display: flex;
+  align-items: center;
+}
+
+.videoPageTitleText {
+  margin-left: 8px;
+}
+
+.videoPageVideo {
+  width: 100%;
+  height: 520px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Hide the download button in Chrome-based browsers */

@@ -1,0 +1,47 @@
+/* ProfilePage.css */
+.MuiTab-root {
+    justify-content: flex-start !important; /* Align label to the left */
+    text-align: left !important;
+    padding-left: 0 !important; /* Remove default padding */
+  }
+
+/* Container for the entire profile page */
+.profile-container {
+  padding: 30px;
+}
+
+/* The card-style box wrapping the tabs and content */
+.tabs-container {
+  margin: 24px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  padding-bottom: 1.5rem !important;
+}
+
+/* Styles for the tab when it is active */
+.tab-active {
+  background-color: #f2f4fe !important;
+  color: #3B82F6 !important;
+  margin: 0 15px !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+}
+
+/* Styles for the tab when it is inactive */
+.tab-inactive {
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 15px  !important;
+  padding: 10px !important;
+  color:#475569 !important;
+
+}
+
+/* General typography settings */
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 24px;
+}

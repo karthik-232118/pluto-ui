@@ -1,0 +1,22 @@
+/* index.css */
+
+/* Components Component */
+.components_components {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  /* Signatories Section */
+  .signatories-section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  .signatory {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fafafa;
+  }
+  
